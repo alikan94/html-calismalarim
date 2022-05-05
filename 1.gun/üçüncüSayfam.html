@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Çalışması</title>
+  </head>
+  <body>
+    <hr />
+    <b>This text is bold</b>
+    <br />
+    <strong>This text is important!</strong>
+    <br />
+
+    <form action="register.js">
+      bu benim form calismam
+      <p>
+        <label for="Ad">Adiniz</label>
+        <input type="text" name="first_name" id="Ad" />
+      </p>
+      <p>
+        <label for="soyad">Soyadiniz</label>
+        <input type="text" name="last_name" id="soyad" />
+      </p>
+      <p>
+        <label for="yas">Yas</label>
+        <input type="number" name="last_name" id="yas" />
+      </p>
+      <p>
+        <label for="Memleket">Memleketiniz</label>
+        <input type="button" value="Memleket" />
+      </p>
+      <p>
+        <label for="password">Password</label>
+        <input type="password" name="Password" id="password" />
+      </p>
+      <p>
+        <label for="email">Email</label>
+        <input type="email" name="Email" id="email" />
+      </p>
+      <p>
+        <label for="onay">Onayliyorum</label>
+        <input type="checkbox" name="check" id="onay" />
+        <input type="checkbox" name="" id="" />
+        <input type="checkbox" name="" id="" />
+        <input type="checkbox" name="" id="" />
+        <input type="checkbox" name="" id="" />
+      </p>
+      <p>
+        <label for="cinsiyet">Kadın</label>
+        <input type="radio" name="sex" id="cinsiyet" />
+        <label for="cinsiyet">Erkek</label>
+        <input type="radio" name="sex" id="cinsiyet" />
+      </p>
+      <p>
+        <label for="dosyayukle">Dosya yukle</label>
+        <br />
+        <input type="file" name="" id="dosyayukle" />
+      </p>
+      <p>
+        <select name="iller" id="">
+          <option value="il01">Adana</option>
+          <option value="il02">Adıyaman</option>
+          <option value="il03">Afyonkarahisar</option>
+          <option value="il04">Ağrı</option>
+          <option value="il05">Amasya</option>
+          <option value="il06">Ankara</option>
+          <option value="il07">Antalya</option>
+          <option value="il08">Artvin</option>
+          <option value="il09">Aydın</option>
+          <option value="il10">Balıkesir</option>
+          <option value="il11">Bilecik</option>
+          <option value="il12">Bingöl</option>
+          <option value="il13">Bitlis</option>
+          <option value="il14">Bolu</option>
+          <option value="il15">Burdur</option>
+          <option value="il16">Bursa</option>
+          <option value="il17">Çanakkale</option>
+          <option value="il18">Çankırı</option>
+        </select>
+      </p>
+
+      <label for="adres">Adresiniz</label>
+      <br />
+      <textarea name="adres" id="adres" cols="30" rows="10"></textarea>
+
+      <p>
+        <input type="button" value="OK" />
+        <input type="button" value="Kaydet" />
+        <input type="button" value="Gönderme" />
+        <input type="button" value="Bazen Kusuyorum Ben" />
+        <input type="button" value="LOL" />
+
+        <input type="submit" />
+      </p>
+      <p>
+        <input type="reset" value="temizle" />
+      </p>
+
+      <hr />
+
+      <form action="/action_page.php">
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike" />
+        <label for="vehicle1"> I have a bike</label><br />
+        <input type="checkbox" id="vehicle2" name="vehicle2" value="Car" />
+        <label for="vehicle2"> I have a car</label><br />
+        <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat" />
+        <label for="vehicle3"> I have a boat</label><br /><br />
+        <input type="submit" value="Submit" />
+      </form>
+    </form>
+
+    <hr />
+  </body>
+</html>
